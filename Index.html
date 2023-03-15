@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clickable Images</title>
+	<style>
+		/* Center the header image */
+		.header-image {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+		}
+
+		/* Create a grid layout for the clickable images */
+		.image-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			gap: 1rem;
+			padding: 1rem;
+		}
+
+		/* Center the clickable images within their grid cells */
+		.image-grid img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<!-- Header image for MindSightGems  -->
+	<img class="header-image" src="mindsightgems-header.jpg" alt="MindSightGems header image">
+
+	<!-- Grid of clickable images -->
+	<div class="image-grid">
+		<a href="https://www.etsy.com/shop/MindsightGems" target="_blank">
+			<img src="image1.jpg" alt="Image 1">
+		</a>
+
+		<a href="https://poshmark.com/closet/mindsightgems" target="_blank">
+			<img src="image2.jpg" alt="Image 2">
+		</a>
+
+		<a href="http://mindsight-gems.myshopify.com" target="_blank">
+			<img src="image3.jpg" alt="Image 3">
+		</a>
+	</div>
+</body>
+</html>
